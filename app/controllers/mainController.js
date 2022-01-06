@@ -22,12 +22,12 @@ const mainController = {
     }
   },
   somePageWithDetailsOfaThing: async (req, res, next) => {
-    const numero = req.params.numero;
+    const numero = req.params.id;
     try {
-      const pokemon = await dataMapper.getOnePokemon(numero);
-      if(pokemon) {
+      const thing = await dataMapper.getOnething(id);
+      if(thing) {
         res.render('detailPage', {
-          pokemon
+          thing
         });
       } else {
         next();
