@@ -1,0 +1,37 @@
+{
+  "name": "s03-bonus-agathepons",
+  "version": "1.0.0",
+  "description": "pokedex but with sql data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node-dev index.js --no-notify",
+    "sass": "sass --watch ./app/sass/main.scss:./public/css/style.css --style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Zagreus/S03-bonus-AgathePons.git"
+  },
+  "keywords": [
+    "js",
+    "postgreSQL",
+    "express",
+    "ejs"
+  ],
+  "author": "AgathePons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Zagreus/S03-bonus-AgathePons/issues"
+  },
+  "homepage": "https://github.com/O-clock-Zagreus/S03-bonus-AgathePons#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "eslint": "^8.5.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "pg": "^8.7.1",
+    "sass": "^1.45.1"
+  }
+}
