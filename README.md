@@ -28,7 +28,7 @@ npm run sass
 
 **Postgres SQL**
 
-Le projet tourne, se lance, et la homepage ('/') s'affiche, cependant, toutes les infos relatives à une bdd sont à titre d'exemple, et donc non fonctionnel.
+Le projet tourne, se lance, et la homepage ('/') s'affiche, cependant, toutes les infos relatives à une bdd sont à titre d'exemple, et donc non fonctionnelles.
 
 Normal, c'est voué à être adapté à chaque projet.
 
